@@ -1,0 +1,17 @@
+header{
+	background: rgb(255, 87, 51);
+	color: white;
+}
+footer{
+	background: green;
+	color: white;
+}
+.bloque_izq{
+	background: yellow;
+}
+.bloque_cen{
+	background: red;
+}
+.bloque_der{
+	background: gray;
+}
