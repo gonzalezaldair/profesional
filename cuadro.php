@@ -6,7 +6,7 @@ for ($i=1; $i <= $tam ; $i++) echo "*";
 for ($j=2; $j < $tam; $j++) {
 	echo "*";
 	for ($i=2; $i < $tam; $i++)
-		echo "__";
+		echo "&nbsp;&nbsp;";
 	echo "* <br>";
 }
 for ($i=1; $i <= $tam ; $i++) echo "*";
