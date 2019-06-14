@@ -1,17 +1,24 @@
-header{
-	background: rgb(255, 87, 51);
-	color: white;
-}
-footer{
-	background: green;
-	color: white;
-}
-.bloque_izq{
-	background: yellow;
-}
-.bloque_cen{
-	background: red;
-}
-.bloque_der{
+.texto1{
 	background: gray;
+}
+.texto2{
+	background: green;
+}
+.texto3{
+	background: orange;
+}
+.texto4{
+	background: blue;
+}
+.texto5{
+	background: #D9DFDF;
+}
+.texto6{
+	background: #18E2F3;
+}
+.texto7{
+	background: #F9F8C3;
+}
+.texto8{
+	background: #E7E41D;
 }
