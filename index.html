@@ -11,73 +11,106 @@
 	<title>PRACTICA | PROFESIONAL</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/styleAldair.css">
-	
+
 </head>
 <body>
 	<header class="text-center">
-		<h1>CABEZA</h1>
+		<h1>HEADER</h1>
 	</header>
-					<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				  <a class="navbar-brand" href="#">Navbar</a>
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-				    <span class="navbar-toggler-icon"></span>
-				  </button>
-				  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-				    <ul class="navbar-nav">
-				      <li class="nav-item active">
-				        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="#">Features</a>
-				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link" href="#">Pricing</a>
-				      </li>
-				      <li class="nav-item dropdown">
-				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				          Dropdown link
-				        </a>
-				        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				          <a class="dropdown-item" href="#">Action</a>
-				          <a class="dropdown-item" href="#">Another action</a>
-				          <a class="dropdown-item" href="#">Something else here</a>
-				        </div>
-				      </li>
-				    </ul>
-				  </div>
-				</nav>
-	<div class="container-fluid">
+	<nav>
+		<div id="menu">
+			<ul class="menup">
+				<li>opcion 1</li>
+				<li class="dropdown">opcion 2</li>
+				<ul>
+					<li>opcion 2.1</li>
+					<li>opcion 2.2</li>
+				</ul>
+				<li>opcion 3</li>
+				<li>opcion 4</li>
+				<li>opcion 5</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
 		<div class="row">
-					<div class="col-md-6 col-12">
-						<article>
-							<p class="text-justify">	
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati tempora iure harum esse, porro nam necessitatibus. Tempore sunt veritatis exercitationem eveniet in similique, ipsa maiores ab, placeat quaerat quis! Eum!
-							</p>
-						</article>
-					</div>
-					<div class="col-md-6 col-12">
-						<aside>
-							<p class="text-center text-capitalize">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati tempora iure harum esse, porro nam necessitatibus. Tempore sunt veritatis exercitationem eveniet in similique, ipsa maiores ab, placeat quaerat quis! Eum!
-							</p>
-						</aside>
-					</div>
-					<div class="col-md-4 col-12 bloque_izq" >
-						<p class="text-justify" > <kbd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eveniet, eius expedita rerum quisquam nisi culpa quas officiis, </kbd>assumenda sed blanditiis esse molestiae harum quam consectetur dolores. Nesciunt, molestias, unde.</p>
-					</div>
-					<div class="col-md-4 col-12 bloque_cen">
-						<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt officiis similique quo reprehenderit cupiditate illum non corrupti. Ipsum consequuntur illo, tempore voluptatem sequi voluptatum adipisci commodi harum maxime veritatis praesentium.
-							<pre>https://www.w3schools.com/bootstrap4/bootstrap_typography.asp
-							</pre></p>
-					</div>
-					<div class="col-md-4 col-12 bloque_der">
-						<p class="text-justify"> <del>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</del> Ab, asperiores voluptatem, minus nam ullam quo consequatur iure animi tenetur nihil eius obcaecati eveniet. Labore, minus quidem itaque porro illum repellendus.</p>
-						
-					</div>
+			<div class="col-md-6">
+				<div class="table table-responsive">
+					<table class="table table-bordered table-hover table-striped table-condensed">
+						<thead>
+							<tr class="table table-info">
+								<td>#</td>
+								<td>Usuario</td>
+								<td>Nombre</td>
+								<td>Apellido</td>
+								<td>Tel</td>
+								<td>Email</td>
+								<td>Dir</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>aagonzalez</td>
+								<td>Aldair</td>
+								<td>Gonzalez</td>
+								<td>1234566</td>
+								<td>aldair@gmail.com</td>
+								<td>Cucuta</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>aagonzalez</td>
+								<td>Aldair</td>
+								<td>Gonzalez</td>
+								<td>1234566</td>
+								<td>aldair@gmail.com</td>
+								<td>Cucuta</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>aagonzalez</td>
+								<td>Aldair</td>
+								<td>Gonzalez</td>
+								<td>1234566</td>
+								<td>aldair@gmail.com</td>
+								<td>Cucuta</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>aagonzalez</td>
+								<td class="table-active">Aldair</td>
+								<td>Gonzalez</td>
+								<td>1234566</td>
+								<td>aldair@gmail.com</td>
+								<td>Cucuta</td>
+							</tr>
+							<tr class="table table-danger">
+								<td>5</td>
+								<td>aagonzalez</td>
+								<td>Aldair</td>
+								<td>Gonzalez</td>
+								<td>1234566</td>
+								<td>aldair@gmail.com</td>
+								<td>Cucuta</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<p class="text-center"><mark><del>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</del> <ins>Explicabo nemo recusandae sequi rerum,</ins> nesciunt corporis quisquam animi a, <small>magnam illo numquam nihil vel dignissimos</small> officia quia molestiae vitae consequuntur eum!</mark></p>
+				<br>
+				<p class="text-justify"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> <code>Quasi nisi delectus quidem. Ea, corrupti.</code> <cite>Iusto eum ab tempora commodi laboriosam suscipit labore error, officiis velit quisquam recusandae voluptatum, atque facilis.</cite></p>
+				<br>
+				<p class="text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Incidunt quam suscipit iste dolorum aspernatur praesentium iure aliquid nostrum tempore deleniti cupiditate id, sit, obcaecati saepe amet similique! Laboriosam dolorem, veritatis!</p>
+			</div>
+			<div class="col-md-12 col-12">
+
+			</div>
 		</div>
 	</div>
-
-	<footer class="text-center"><h1>Footer</h1></footer>
+	<footer class="text-center"><h1>FOOTER</h1></footer>
 	<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
